@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinema App</title>
+
+    <!-- Google Font: Source Sans Pro -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+    <!-- adminLTE -->
+    <link rel="stylesheet" href="plugins/adminLTE/adminlte.min.css">
+
+    <!-- Custom css -->
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body class="sidebar-mini sidebar-collapse layout-fixed layout-navbar-fixed">
+
+    <div class="wrapper _w">
+
+      <!-- NAVBAR -->
+      <app-nav-bar></app-nav-bar>
+      <!-- /NAVBAR -->
+
+      <!-- SIDE_BAR -->
+      <app-side-bar></app-side-bar>
+      <!-- /SIDE_BAR -->
+
+      <!-- MAIN CONTENT -->
+      <main class="content-wrapper">
+        
+        <!-- HEROES GENERAL -->
+        <section class="content" style="min-height: 90vh;">
+          <app-heroes-grid></app-heroes-grid>
+          <app-heroe-details></app-heroe-details>
+        </section>
+
+      <!-- FOOTER -->
+      <app-footer-component></app-footer-component>
+      <!-- /FOOTER -->
+
+    </div>
+
+    <!-- jQuery -->
+    <script src="plugins/jquery/jquery.min.js"></script>
+    <!-- Bootstrap 4 -->
+    <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- AdminLTE App -->
+    <script src="plugins/adminLTE/adminlte.min.js"></script>
+  </body>
+</html>

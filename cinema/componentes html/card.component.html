@@ -1,0 +1,26 @@
+<!-- CARD COMPONENT -->
+<div class="col-12 col-sm-6 col-md-4 d-flex align-items-stretch flex-column">
+  <div class="card bg-light d-flex flex-fill">
+    <div class="card-header text-muted border-bottom-0">
+      <strong>{{ heroe.name }}</strong>
+      <br />
+      {{ heroe.subname }}
+    </div>
+
+    <div class="card-body">
+      <img src="./img/avatar2.png" class="heroe__img" alt="" />
+      <strong><span>Empresa: </span></strong>{{ heroe.empresa }} <br />
+      <strong><span>Primera aparicion: </span></strong>{{ aparicion }} <br />
+      <strong><span>Personaje: </span></strong>{{ heroe.subname }}
+    </div>
+
+    <div class="card-footer">
+      <div class="text-right">
+        <a href="#" class="btn btn-sm btn-primary">
+          <i class="fas fa-plus"></i> Ver más
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- /CARD COMPONENT -->
